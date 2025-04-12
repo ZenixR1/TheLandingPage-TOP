@@ -1,0 +1,68 @@
+.mainDiv{
+    display:flex;
+}
+.topDiv{
+    display:flex;
+    background-color: #1F2937;
+    flex-direction: column;
+}
+.navBar{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.headerDiv{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-items: left;
+}
+.headerLogo{
+    display: inline-flex;
+    background-color: transparent;
+    margin-left: 100px;
+}
+.headerLogo h3{
+    width:fit-content;
+}
+.logoLink{
+    text-decoration: none;
+}
+.headerLinksDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    justify-self: flex-end;
+    margin-right: 100px;
+}
+.headerLinks{
+    display: inline-flex;
+    text-decoration: none;
+    padding: 0;
+    margin: 22px;
+}
+.headerLink1{
+    text-decoration: none;
+}
+.headerLinkItem1{
+    text-decoration: none;
+    display: inline-flex;
+}
+.headerLink2{
+    text-decoration: none;
+}
+.headerLinkItem2{
+    text-decoration: none;
+    display: inline-flex;
+}
+.headerLink3{
+    text-decoration: none;
+}
+.headerLinkItem3{
+    text-decoration: none;
+    display: inline-flex;
+}
+.firstContentDiv{
+    display: flex;
+}
