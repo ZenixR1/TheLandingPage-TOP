@@ -25,6 +25,7 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     margin-top: 25px;
+    gap: 25px;
 }
 .headerDiv{
     background-color: transparent;
@@ -90,6 +91,7 @@
     display: flex;
     justify-content: space-between;
     margin: 95px 150px;
+    gap: 35px;
 }
 
 .firstContent{
