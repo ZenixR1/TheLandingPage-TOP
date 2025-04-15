@@ -1,9 +1,18 @@
+:root{
+    --hero-main: #F9FAF8;
+    --hero-secondary: #E5E7EB;
+    --dark-background: #1F2937;
+    --button-background: #3882F6;
+}
+
 *{
     margin: 0;
+    font-family: 'Roboto';
 }
 
 .mainDiv{
     display:flex;
+    flex-direction: column;
 }
 .topDiv{
     display:flex;
@@ -15,53 +24,63 @@
     flex-direction:row;
     flex-wrap: nowrap;
     justify-content: space-between;
+    margin-top: 25px;
 }
 .headerDiv{
     background-color: transparent;
     display: flex;
     flex-direction: row;
     justify-items: left;
+    align-items: center;
 }
 .headerLogo{
     display: inline-flex;
     background-color: transparent;
-    margin-left: 100px;
+    margin-left: 150px;
+    height: fit-content;
+    font-size: 24px;
 }
 .headerLogo h3{
     width:fit-content;
 }
 .logoLink{
     text-decoration: none;
+    color:var(--hero-main);
 }
 .headerLinksDiv{
     display: flex;
     flex-direction: row;
     justify-content: left;
     justify-self: flex-end;
-    margin-right: 100px;
+    margin-right: 150px;
 }
 .headerLinks{
     display: inline-flex;
     text-decoration: none;
-    padding: 0;
-    margin: 22px;
+    padding: 0px;
+    font-size: 18px;
 }
 .headerLink1{
     text-decoration: none;
+    color: var(--hero-secondary);
 }
 .headerLinkItem1{
     text-decoration: none;
     display: inline-flex;
+    margin-right:20px;
 }
 .headerLink2{
     text-decoration: none;
+    color: var(--hero-secondary);
 }
 .headerLinkItem2{
     text-decoration: none;
     display: inline-flex;
+    margin-right:20px;
 }
 .headerLink3{
     text-decoration: none;
+    color: var(--hero-secondary);
 }
 .headerLinkItem3{
     text-decoration: none;
@@ -69,4 +88,40 @@
 }
 .firstContentDiv{
     display: flex;
+    justify-content: space-between;
+    margin: 95px 150px;
+}
+
+.firstContent{
+    width: 475px;
+}
+
+.websiteMainTitle{
+    font-size:48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.websiteMainSubtext{
+    font-size: 18px;
+    color:#E5E7EB
+}
+.firstContent button{
+    background-color: var(--button-background);
+    color:var(--hero-main);
+    border: solid 1px transparent;
+    padding:5px 25px;
+    font-weight: 550;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.imageDiv{
+    width: 550px;
+    height: 250px;
+    background-color: #717881;
+    text-align: center;
+    align-content: center;
+    font-size: 14px;
+    color:#E5E7EB;
 }
